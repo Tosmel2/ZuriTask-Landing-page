@@ -1,0 +1,310 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+}
+p, a{
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3{
+  font-family: 'Poppins', sans-serif;
+}
+.row{
+  margin: 0 auto;
+  max-width: 85%;
+}
+.hero-container{
+  background-image: url('/img/bg-hero-desktop.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  height: 95vh;
+  background-color: hsl(193, 100%, 96%);
+}
+.nav-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+.Try-button{
+  background-color: #fff;
+  color: #000;
+  padding: 10px 35px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
+  -webkit-box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: -1px 1px 5px 1px rgba(0,0,0,0.5);
+}
+
+.GetStartedBtn{
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  padding: 15px 45px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container{
+  margin-top: 50px;
+  width: 100%;  
+}
+
+.mgtop{
+  margin-top: 100px;
+}
+
+.hero-section{
+  display: flex;
+}
+.hero-text{
+  font-size: 16px;
+  width: 50%;
+  padding-top: 140px;
+}
+.hero-text p{
+  padding-bottom: 30px;
+}
+
+.hero-image{
+  padding-top: 30px;
+  width: 50%;
+}
+.hero-image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+/* =========================Features section==================== */
+
+.hr-image{
+  padding:10px 0;
+  width: 45%;
+  object-fit: cover;
+}
+.hr-image img{
+  height: 280px;
+  width: 100%;
+}
+.hero-section2{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  box-shadow: -1px 1px 5px 1px rgba(206, 204, 204, 0.8);
+  -webkit-box-shadow: -1px 1px 5px 1px rgba(206, 204, 204, 0.8);
+  -moz-box-shadow: -1px 1px 5px 1px rgba(206, 204, 204, 0.8);
+}
+.hero-text2{
+  font-size: 16px;
+  width: 50%;
+  padding: 80px 50px;
+}
+/* =========================community-box section================= */
+.community-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 150px;
+}
+.community-box .ready-text{
+  width: 40%;
+  padding: 50px 25px;
+  /* border: 2px solid blue; */
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  box-shadow: -1px 1px 5px 1px rgba(206, 204, 204, 0.8);
+  -webkit-box-shadow: -1px 1px 5px 1px rgba(206, 204, 204, 0.8);
+  -moz-box-shadow: -1px 1px 5px 1px rgba(206, 204, 204, 0.8);
+ 
+}
+
+.ready-text h2{
+  padding-bottom: 20px;
+}
+
+/* =========================Footer section================= */
+footer{
+  /* hsl(192, 100%, 9%) */
+  background-color: hsl(192, 80%, 14%);
+  padding: 120px 0px 60px 0px;
+  text-align: center;
+  font-size: 16px;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 25px;
+
+}
+
+.link-boxes{
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  /* padding: 10px; */
+}
+.link-box ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.link-box ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.link-box{
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+}
+.link-box i{
+  border: 2px solid red;
+  display: flex;
+}
+.link-box2{
+  display: flex;
+  border: 2px solid blue;
+}
+
+.footer-logo{
+  width: 100px;
+  height: 40px;
+}
+.footer-logobox{
+  display: flex;
+  justify-content: start;
+  background-color: hsl(193, 100%, 96%);
+}
+.link-boxes .link-box p{
+  font-size: 16px;
+  color: #fff;
+  text-align: left;
+}
+
+.media-icons i{
+  height: 22px;
+  width: 22px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.copyright{
+  display: flex;
+  justify-content: end;
+  color: #fff;
+}
+
+
+/* =========================@media screen section================= */
+
+@media screen and (max-width: 768px){
+  .row{
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  .hero-container{
+    background-image: url('/img/bg-hero-mobile.svg');
+  }
+  .hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-text{
+    font-size: 16px;
+    width: 100%;
+    padding: 60px 20px 20px 20px;
+    text-align: center;
+  }
+  .hero-text p{
+    padding-bottom: 20px;
+  }
+  
+  .hero-image{
+    width: 100%;
+  }
+  .hero-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  
+
+  .hero-container{
+    height: 80vh;
+  }
+  .nav-wrapper{
+    padding-top: 10px;
+  }
+  .nav-wrapper img{
+    width: 50%;
+  }
+  .Try-button{
+    padding: 10px 20px;
+  }
+
+  .community-box .ready-text{
+    width: 85%;
+    padding: 30px ;
+  }
+  .ready-text h2{
+    font-size: 16px;
+  }
+  .GetStartedBtn{
+    padding: 10px 25px;
+  }
+  .hero-section2{
+    flex-direction: column;
+  }
+  .hero-text2{
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    padding: 15px;
+  }
+  .hr-image{
+    padding: 0;
+    width: 100%;
+    object-fit: cover;
+  }
+  .hr-image img{
+    height: 200px;
+    width: 100%;
+  }
+  .container{
+    margin-top: 20px; 
+  }
+
+  .growmt{
+    margin-top: 100px;
+  }
+  .Try-button{
+    padding: 8px 22px;
+  }
+}
