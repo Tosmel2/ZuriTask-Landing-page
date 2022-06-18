@@ -34,6 +34,7 @@ h1, h2, h3{
   justify-content: space-between;
   align-items: center;
   padding-top: 30px;
+  padding-bottom: 5px;
 }
 .Try-button{
   background-color: #fff;
@@ -106,7 +107,6 @@ h1, h2, h3{
 .hero-section2{
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   box-shadow: -1px 1px 5px 1px rgba(206, 204, 204, 0.8);
   -webkit-box-shadow: -1px 1px 5px 1px rgba(206, 204, 204, 0.8);
   -moz-box-shadow: -1px 1px 5px 1px rgba(206, 204, 204, 0.8);
@@ -127,7 +127,6 @@ h1, h2, h3{
 .community-box .ready-text{
   width: 40%;
   padding: 50px 25px;
-  /* border: 2px solid blue; */
   background-color: #fff;
   border-radius: 10px;
   text-align: center;
@@ -144,12 +143,8 @@ h1, h2, h3{
 
 /* =========================Footer section================= */
 footer{
-  /* hsl(192, 100%, 9%) */
   background-color: hsl(192, 80%, 14%);
   padding: 120px 0px 60px 0px;
-  text-align: center;
-  font-size: 16px;
-  align-items: center;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -160,8 +155,6 @@ footer{
 .link-boxes{
   display: flex;
   justify-content: space-between;
-  /* border: 2px solid red; */
-  /* padding: 10px; */
 }
 .link-box ul{
   list-style: none;
@@ -171,19 +164,21 @@ footer{
 .link-box ul li a{
   text-decoration: none;
   color: #fff;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 2rem;
 }
 .link-box{
-  border: 2px solid blue;
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 .link-box i{
-  border: 2px solid red;
-  display: flex;
+  font-size: 12px;
+  padding: 5px;
 }
 .link-box2{
   display: flex;
-  border: 2px solid blue;
 }
 
 .footer-logo{
@@ -194,11 +189,14 @@ footer{
   display: flex;
   justify-content: start;
   background-color: hsl(193, 100%, 96%);
+  padding: 5px;
 }
 .link-boxes .link-box p{
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
   text-align: left;
+  padding: 6px 0px;
+  font-weight: 200;
 }
 
 .media-icons i{
@@ -216,6 +214,8 @@ footer{
   display: flex;
   justify-content: end;
   color: #fff;
+  font-size: 14px;
+  font-weight: 200;
 }
 
 
@@ -306,5 +306,18 @@ footer{
   }
   .Try-button{
     padding: 8px 22px;
+  }
+
+  .link-boxes{
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px 0;
+  }
+  .link-box{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+  }
+  .media-icons{
+    padding: 10px 0;
   }
 }
